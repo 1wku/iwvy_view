@@ -1,12 +1,14 @@
 <template>
-	<div class="home">
-		<h1>Hello home</h1>
-	</div>
+	<home-banner />
+  <div class="home">
+
+  </div>
 </template>
 
 <script>
+import HomeBanner from '../components/HomeBanner.vue'
 export default {
-	name: "HomeView",
-	components: {},
+  name: "HomeView",
+  components: {HomeBanner},
 };
 </script>
