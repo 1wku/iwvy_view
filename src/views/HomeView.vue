@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import HomeBanner from '../components/HomeBanner.vue'
+import HomeBanner from 'components/HomeBanner.vue'
 export default {
   name: "HomeView",
   components: {HomeBanner},

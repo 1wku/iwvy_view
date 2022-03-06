@@ -13,8 +13,11 @@
           urna bibendum fermentum. Curabitur nec consectetur est, vel cursus
           elit. Nam neque ipsum, tempus sed eleifend nec, sagittis quis massa.
           Vivamus ut dolor eros. Nulla molestie metus mi, commodo elementum leo
-          vestibulum sit amet. ...Read more
+          vestibulum sit amet. ... <span class="home__banner-readmore">Read more</span>
         </p>
+        <div class="home__info">
+          
+        </div>
       </div>
       <div class="home__banner-right">
         <button class="home__banner-btn">Watch now</button>
@@ -68,6 +71,10 @@
       font-size: 0.875rem;
       max-width: 46.6875rem;
 			line-height: 186%;
+    }
+    &-readmore {
+      font-weight: bold;
+
     }
     &-btn {
       font-size: 2rem;
