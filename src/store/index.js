@@ -1,14 +1,19 @@
 import { createStore } from 'vuex'
+import movieModule from './movieModule'
+import tvModule from './tvModule'
 
-export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+const store = createStore({
+  state: {},
+  getters: {},
+  mutations: {},
+  actions: {},
   modules: {
-  }
+    movie: movieModule,
+    tv: tvModule,
+  },
 })
+
+export default store
+
+store.dispatch('movie/getMovieTrending')
+store.dispatch('tv/getTvTrending')
